@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   const { email, no } = req.body;
 
   // アスメルの登録用URL（あなたのシナリオ番号を含む）
-  const asumeruUrl = `https://moushikomi.jp/twm/entry.php?no=${no}`;
+  const asumeruUrl = `https://1lejend.com/stepmail/kd.php?no=${no}`;
 
   try {
     // アスメルにデータを送信
